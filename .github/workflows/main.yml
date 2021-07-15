@@ -7,7 +7,7 @@ on:
     tags:
     - 'v*'
   schedule:
-    - cron: '30 * * * *'
+    - cron: '*/20 * * * *'
   watch:
     types: [started]
    
